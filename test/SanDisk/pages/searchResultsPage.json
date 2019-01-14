@@ -1,0 +1,18 @@
+{
+    "List of products by search":{
+        "isCollection": true,
+        "type": "css",
+        "selector": "a.dr_productName"
+    },
+    "|List Of Products":{
+        "isCollection": true,
+        "type": "css",
+        "selector": ".search-result",
+        "children" : {
+            "Title": {
+                "type": "css",
+                "selector": ".prod-list-head"
+            }
+        }
+    }
+}

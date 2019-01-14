@@ -1,0 +1,41 @@
+{
+  "name": "sandisk-cucumber-tests",
+  "version": "1.0.0",
+  "description": "BDD test for SanDisk web-site",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update --gecko=false",
+    "e2e": "protractor ./test/SanDisk/config/config.js",
+    "e2e:update": "node ./node_modules/protractor/bin/webdriver-manager update --gecko=false",
+    "e2e:start-server": "start cmd /k \"node_modules\\.bin\\webdriver-manager start\"",
+    "e2e:generate-report": "node ./test/SanDisk/config/reporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duchannes/SanDisk-Cucumber-Tests.git"
+  },
+  "author": "JS_TA_2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duchannes/SanDisk-Cucumber-Tests/issues"
+  },
+  "homepage": "https://github.com/Duchannes/SanDisk-Cucumber-Tests#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^5.0.3",
+    "cucumber-html-reporter": "^4.0.4",
+    "fs-extra": "^7.0.1",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.1",
+    "winston": "^3.1.0",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

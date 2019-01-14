@@ -1,0 +1,67 @@
+{
+    "Search Icon": {
+        "type": "css",
+        "selector": "i[title='search']"
+    },
+    "Search Field": {
+        "type": "css",
+        "selector": ".ui-autocomplete-input"
+    },
+    "Search Button": {
+        "type": "css",
+        "selector": "#dr_searchbutton"
+    },
+    "List of products": {
+        "isCollection": true,
+        "type": "css",
+        "selector": "a.dr_productName"
+    },
+    "Products Menu": {
+        "type": "css",
+        "selector": "li.dropdown",
+        "items": "li[id*='dr_catID']"
+    },
+    "List Of Products Types": {
+        "isCollection": true,
+        "type": "css",
+        "selector": "li[id*='dr_catID']"
+    },
+
+    "Top Sellers Buy Now Button": {
+        "type": "css",
+        "selector": "#dr_topSellersOffer",
+        "items": ".dr_productName"
+    },
+    "|Top Sellers": {
+        "type": "css",
+        "selector": "#dr_topSellersOffer",
+        "children" : {
+            "Buy Now Buttons": {
+                "isCollection": true,
+                "type": "css",
+                "selector": ".dr_button"
+            }
+        }
+    },
+    "Basket Icon": {
+        "type": "css",
+        "selector": "i[class$='basket']"
+    },
+    "Product Name In Basket": {
+        "isCollection": true,
+        "type": "css",
+        "selector": ".dr_prod-name"
+    },
+    "Number Of Products Icon": {
+        "type": "css",
+        "selector": "#dr_cartQty"
+    },
+    "View Cart Button": {
+        "type": "css",
+        "selector": ".btn_viewCart"
+    },
+    "Capacity List":{
+        "selector":"div.dr_facetName",
+        "items":"li.dr_facetValue"
+    }
+}

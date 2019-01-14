@@ -1,0 +1,43 @@
+{
+    "SanDisk Image": {
+        "type": "css",
+        "selector": "a[href = \"/\"]>img"
+    },
+    "Usb Flash Reference": {
+        "type": "css",
+        "selector": ".navbar a[href*='usb']"
+    },
+    "Ssd Reference": {
+        "type": "css",
+        "selector": ".navbar a[href*='ssd']"
+    },
+    "Shop Now Reference": {
+        "type": "css",
+        "selector": ".navbar [href*='shop']"
+    },
+    "Extreme Reference":{
+        "type": "css",
+        "selector" : ".navbar [href*='extreme']"
+    },
+    "To Find A Store Text":{
+        "type":"css",
+        "selector":"h3.no-caps"
+    },
+    "Where To Buy":{
+        "type": "css",
+        "selector": "ul[class*='nav'] a[href*='where']"
+    },
+    "Find The Right Fit":{
+        "type": "css",
+        "selector": "span.btn"
+    },
+    "Buy It Now":{
+        "type": "css",
+        "selector": ".btn.actionItem.bg-red"
+    },
+    "|Title Menu":{
+        "type": "css",
+        "selector": ".navbar-nav",
+        "items": "li"
+    }
+}
