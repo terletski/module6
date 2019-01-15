@@ -1,10 +1,6 @@
 const winston = require(`winston`);
 const path = require(`path`);
 const { createLogger, format, transports } = winston;
-const fs = require(`fs-extra`);
-
-fs.emptyDirSync(path.resolve(`./reports/`));
-fs.emptyDirSync(path.resolve(`./logs/`));
 
 let logger = createLogger({
   transports: [

@@ -4,9 +4,10 @@
   "description": "BDD test for SanDisk web-site",
   "main": "index.js",
   "scripts": {
-    "postinstall": "webdriver-manager update --gecko=false",
     "e2e": "protractor ./test/SanDisk/config/config.js",
-    "e2e:update": "node ./node_modules/protractor/bin/webdriver-manager update --gecko=false",
+    "pree2e": "node ./test/SanDisk/utils/folderCleaner.js",
+    "postinstall": "webdriver-manager update",
+    "e2e:update": "webdriver-manager update",
     "e2e:start-server": "start cmd /k \"node_modules\\.bin\\webdriver-manager start\"",
     "e2e:generate-report": "node ./test/SanDisk/config/reporter.js"
   },
