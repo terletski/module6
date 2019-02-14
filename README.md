@@ -1,7 +1,7 @@
 # SanDisk-Cucumber-Tests
 
 ## Prerequisites
-1. Git
+Git
 
 ## Install
 ```
@@ -12,7 +12,9 @@ npm install
 ```
 npm run e2e
 ```
-### will create a `report` folder with:
+npm run e2e -- --tag "@eugene"
+
+## will create a `report` folder with:
 * `cucumber_report.html` output
 
 ## Run [npm run e2e:update] to update wedriver
